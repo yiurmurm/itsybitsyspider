@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html>
+<title> Itsybitsyspider </title>
+<img src="com.png" 
+     style="position: absolute;top: 1; bottom: 0; left: 60%; transform: translateX(calc(-50% + 1cm));  pointer-events: none; user-select: none; width: 300px; height: auto;">
 
+<img src="soc.png" 
+     style="position: absolute; bottom: 1; left: 60%; transform: translateX(calc(-50% + 70px)); pointer-events: none; user-select: none;">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background-image: url('star.gif');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<style>
+    img:hover {
+        animation-name: breadth;
+        animation-duration: 500ms;
+    }
+    
+    @keyframes breadth {
+        50% {
+            width: 350px;
+        }
+        100% {
+            width: 700px;
+        }
+    }
+</style>
+
+<body>
+    <div class="flex-container">
+  <img  type="button" onclick="window.location.href='home.html';" src='icon.png' alt="Centered Image"; width: 275px; height: auto;>
+</div>
+</body>
+
+</html>
